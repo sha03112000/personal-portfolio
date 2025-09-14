@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Josefin Sans', system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  background: linear-gradient(180deg, #8540AC 0%, #5A4487 50%, #241838 100%);
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
