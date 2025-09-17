@@ -22,6 +22,7 @@ const Projects: React.FC = () => {
             description="Self-driven learner with a proven ability to quickly master new tools and frameworks, solve complex problems, and deliver clean, maintainable code. Experienced in developing RESTful APIs."
             image={PhoneImage}
             link="https://example.com"
+            index={index}
           />
         ))}
       </div>

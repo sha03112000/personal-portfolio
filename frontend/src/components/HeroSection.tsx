@@ -43,7 +43,7 @@ const HeroSection: React.FC = () => {
                 <img
                     src={HeroImage}
                     alt="Hero Image"
-                    className="w-64 h-auto md:w-96 object-contain"
+                    className="w-64 h-auto md:w-96 object-contain rounded-md"
                 />
             </div>
         </section>
