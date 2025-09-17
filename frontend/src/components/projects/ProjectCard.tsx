@@ -20,7 +20,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, image, li
     >
       {/* Title */}
       <div className={`flex-1 items-center ${isEven ? "md:text-right" : "md:text-left"}`}>
-        <h3 className="text-xl font-bold">{title}</h3>
+        <h3 className="text-xl font-bold">{index + 1}  {title}</h3>
       </div>
 
       {/* Transparent Black Div */}
