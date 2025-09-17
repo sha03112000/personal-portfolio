@@ -40,7 +40,9 @@ const ContactSection: React.FC = () => {
     try {
       const res = await createEnquiry(formData).unwrap();
 
+
       if (res.success) {
+        console.log(res);
         toast.success("Enquiry submitted successfully");
         resetForm();
       } else {
@@ -143,7 +145,7 @@ const ContactSection: React.FC = () => {
 
             <button
               type="submit"
-              className="w-full bg-purple-600 hover:bg-purple-700 transition-colors duration-200 py-2 rounded-lg font-semibold"
+              className="w-full bg-purple-600 hover:bg-purple-700 transition-colors duration-200 py-2 rounded-lg font-semibold cursor-pointer"
             >
               Send Message
             </button>
