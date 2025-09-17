@@ -33,7 +33,7 @@ const IconWithTooltip = ({ icon: Icon, label, color }: { icon: any; label: strin
 
 const AboutSection: React.FC = () => {
   return (
-    <section id="about" className="text-white px-6 py-10">
+    <section id="about" className="text-white px-6 py-6 md:py-10">
       <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">
         About Me
       </h2>
